@@ -7,10 +7,10 @@
     <link href="/css/styles.css" rel="stylesheet" type="text/css" />
     <title>{{ title }}</title>
   </head>
-  <body class="m-4">
+  <body class="my-4 bg-blue-200 max-w-5xl mx-auto">
     {% include 'header.njk' %}
 
-    <main>
+    <main class="h-screen">
       {{ content | safe }}
     </main>
 
